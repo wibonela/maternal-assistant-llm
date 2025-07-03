@@ -30,4 +30,3 @@ The model is fine-tuned on a bilingual (Swahili) Q&A dataset built from:
 ## 🔐 Secrets
 The Hugging Face API token is stored securely in Streamlit Cloud under **`HF_API_TOKEN`**.
 
-## 📂 File Structure
