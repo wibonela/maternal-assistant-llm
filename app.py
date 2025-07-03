@@ -13,7 +13,7 @@ def query(payload):
 
 
     API_URL = "https://api-inference.huggingface.co/models/wibonela/maternal-assistant-llm"
-    headers = {"Authorization": f"Bearer {api_token}"}
+    headers = {"Authorization": f"Bearer {maternal-assistant-llm}"}
 
     response = requests.post(API_URL, headers=headers, json=payload)
     return response.json()
